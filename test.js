@@ -95,6 +95,7 @@ var B2LWallEmbeder = B2LWallEmbeder || (function(){
         },
 		createEmbedCode:function() {
 			var scriptTag = document.scripts[document.scripts.length - 1];
+      console.log('loading parent node:::')
 			parentTag = scriptTag.parentNode;
 			
 			iframe = document.createElement('iframe');
